@@ -155,7 +155,7 @@ following into account:
 1. By default, the generated service worker file will not intercept or cache any
    cross-origin traffic, like HTTP [API requests](integrating-with-an-api-backend.md),
    images, or embeds loaded from a different domain. Starting with Create
-   React App 4, this can be customized, as explained above.
+   React App 4, this can be customized just as explained above.
 
 ## Progressive Web App Metadata
 
@@ -163,7 +163,7 @@ The default configuration includes a web app manifest located at
 [`public/manifest.json`](https://github.com/cra-template/pwa/blob/master/packages/cra-template-pwa/template/public/manifest.json), that you can customize with
 details specific to your web application.
 
-When a user adds a web app to their homescreen using Chrome or Firefox on
+When a user adds a web app to the homescreen using Chrome or Firefox on
 Android, the metadata in [`manifest.json`](https://github.com/cra-template/pwa/blob/master/packages/cra-template-pwa/template/public/manifest.json) determines what
 icons, names, and branding colors to use when the web app is displayed.
 [The Web App Manifest guide](https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/)
